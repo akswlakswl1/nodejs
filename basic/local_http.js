@@ -1,3 +1,4 @@
+const { log } = require('console');
 const http = require('http');
 const fs = require('fs').promises;
 const html = "./local_http.html"
@@ -32,3 +33,5 @@ server.on('error',(error) =>
 {
     console.error(error);
 });
+
+console.log('git change');
